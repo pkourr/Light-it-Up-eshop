@@ -104,10 +104,6 @@ Contributions are welcome! Please follow these steps to contribute:
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## Contact
-
-For any inquiries or feedback, please contact [pkourr](mailto:your-email@example.com).
-
 ---
 
 **Note:** Ensure you have the necessary permissions and configurations on your server to avoid any issues during setup.
