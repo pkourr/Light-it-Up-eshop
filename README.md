@@ -43,12 +43,6 @@ Light-it-Up E-shop is a dynamic e-commerce platform designed for efficient onlin
 
 ## Installation
 
-### Prerequisites
-
-- PHP 7.4+
-- MongoDB 4.4+
-- Apache/Nginx server
-
 ### Steps
 
 1. Clone the repository:
