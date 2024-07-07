@@ -2,15 +2,17 @@
 
 ## Overview
 
-Light-it-Up E-shop is a dynamic e-commerce platform designed for efficient online shopping experiences. This project aims to provide a seamless interface for users to browse, select, and purchase lighting products.
+Light-it-Up E-shop is a dynamic e-commerce platform designed for efficient online shopping experiences. This project provides a seamless interface for users to browse, select, and purchase lighting products.
 
 ## Features
 
 - **User Authentication:** Secure login and registration system.
 - **Product Management:** Admin interface for adding, updating, and deleting products.
-- **Shopping Cart:** Users can add items to their cart and proceed to checkout.
+- **Shopping Cart:** Users can add items to their cart and proceed to checkout with dynamic Ajax updates.
 - **Order Management:** Track and manage orders from both user and admin perspectives.
 - **Responsive Design:** Mobile-friendly interface ensuring accessibility on various devices.
+- **Product Recommendations:** Personalized recommendations based on user behavior.
+- **Advanced Search:** Search functionality to quickly find products.
 
 ## Technologies Used
 
@@ -21,6 +23,12 @@ Light-it-Up E-shop is a dynamic e-commerce platform designed for efficient onlin
 - **Backend:**
   - PHP
   - MongoDB
+
+- **Tools:**
+  - Google Trends for market analysis
+  - Visual Paradigm for SWOT analysis
+  - GlooMaps and Wireframe.cc for design
+  - Ajax for dynamic content updates
 
 ## Folder Structure
 
@@ -46,27 +54,41 @@ Light-it-Up E-shop is a dynamic e-commerce platform designed for efficient onlin
    cd Light-it-Up-eshop
    ```
 3. Set up the database:
-   - Import the database schema from the `my_db/` folder into your MongoDB instance.
+    - Import the database schema from the `my_db/` folder into your MongoDB instance.
+    - Collections include `usercollection` for user data and `prodcollection` for product data.
+
 4. Configure the backend:
-   - Update the MongoDB connection settings in `phpmongodb/config.php`.
+    - Update the MongoDB connection settings in `phpmongodb/config.php`.
 
 5. Start the server:
-   - For Apache:
-     ```bash
-     sudo systemctl start apache2
-     ```
-   - For Nginx:
-     ```bash
-     sudo systemctl start nginx
-     ```
+    - For Apache:
+      ```bash
+      sudo systemctl start apache2
+      ```
+    - For Nginx:
+      ```bash
+      sudo systemctl start nginx
+      ```
 
 6. Access the application:
-   - Open your web browser and navigate to `http://localhost/Light-it-Up-eshop`.
+    - Open your web browser and navigate to `http://localhost/Light-it-Up-eshop`.
 
 ## Usage
 
-- **Admin Panel:** Accessible at `/admin` after logging in with admin credentials.
+- **Admin Panel:** Accessible at `/admin` after logging in with admin credentials. Admins can manage products, users, and orders.
 - **User Dashboard:** Provides access to user-specific functionalities like order history and profile settings.
+- **Shopping Cart:** Users can add, remove, and update products in their cart with real-time feedback.
+
+## Database Schema
+
+- **`usercollection`:** Stores user information (id, email, password, name, address).
+- **`prodcollection`:** Stores product information (id, name, price, image).
+
+## UI/UX Design
+
+- **Visual Sitemap:** Provides an overview of the website structure (created with GlooMaps).
+- **Wireframes:** Desktop, mobile, and tablet designs (created with Wireframe.cc).
+- **Mockups:** Detailed design mockups (created with Mockplus RP).
 
 ## Contributing
 
