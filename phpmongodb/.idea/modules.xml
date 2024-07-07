@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$USER_HOME$/Desktop/Arty v2.2.7 HTML/.idea/Arty v2.2.7 HTML.iml" filepath="$USER_HOME$/Desktop/Arty v2.2.7 HTML/.idea/Arty v2.2.7 HTML.iml" />
+      <module fileurl="file://$USER_HOME$/Desktop/e-shop/.idea/e-shop.iml" filepath="$USER_HOME$/Desktop/e-shop/.idea/e-shop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/phpmongodb.iml" filepath="$PROJECT_DIR$/.idea/phpmongodb.iml" />
+    </modules>
+  </component>
+</project>
