@@ -1,6 +1,3 @@
-Here's a professional `README.md` for your GitHub repository:
-
-```markdown
 # Light-it-Up E-shop
 
 ## Overview
@@ -92,6 +89,3 @@ For any inquiries or feedback, please contact [pkourr](mailto:your-email@example
 ---
 
 **Note:** Ensure you have the necessary permissions and configurations on your server to avoid any issues during setup.
-```
-
-Feel free to adjust the contact email and any other specific details to match your project requirements.
